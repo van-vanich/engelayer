@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@covalenthq/client-sdk": "^1.0.2",
+    "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "react-router-dom": "^6.23.0"
   },
   "devDependencies": {
     "postcss": "^8",
