@@ -71,12 +71,14 @@ nav {
 
 .page {
     background: #000;
+    padding-top: 158px;
 }
 
 .page h1 {
     font-size: 128px;
     font-weight: 600;
     line-height: 1;
+    padding-bottom: 208px;
 }
 
 .page__text {
@@ -85,9 +87,37 @@ nav {
 
 .page__img {
     width: 50%;
+    align-items: start;
 }
 
 .page__img img{
     width: 100%;
     max-width: 450px;
+    height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .page .container {
+        flex-direction: column-reverse;
+    }
+
+    .page {
+        padding-top: 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .page .container {
+        align-items: center;
+    }
+
+    .page__img {
+        max-width: 24%;
+        padding-bottom: 40px;
+    }
+
+    .page h1 {
+        font-size: 80px;
+        padding-bottom: 50px;
+    }
 }

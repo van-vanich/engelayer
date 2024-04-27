@@ -34,7 +34,7 @@ const Navbar = () => {
                     <Link target="_blank" href="https://twitter.com/EngeLayer">
                         <Image src="/static/twitter.svg" className="" width={40} height={40}/>
                     </Link>
-                    <Link target="_blank" href="https://github.com/">
+                    <Link target="_blank" href="https://github.com/van-vanich/engelayer">
                         <Image src="/static/github.svg" className="" width={40} height={40}/>
                     </Link>
                 </div>
