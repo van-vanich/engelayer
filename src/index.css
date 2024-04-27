@@ -1,6 +1,6 @@
 @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
+@tailwind components;
+@tailwind utilities;
 
   @layer base {
     :root {
@@ -48,3 +48,46 @@
   html {
     font-family: var(--grotesk)
   }
+/*html {*/
+/*    background: aqua !important;*/
+/*    font-family: "Space Grotesk", sans-serif !important;*/
+/*    font-optical-sizing: auto;*/
+/*    font-weight: 400;*/
+/*    font-style: normal;*/
+/*}*/
+/** {*/
+/*    color: #fff;*/
+/*}*/
+
+.font-custom {
+    font-family: 'MyCustomFont', sans-serif;
+    src: url(https://fonts.gstatic.com/s/spacegrotesk/v16/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2) format('woff2');
+}
+
+nav {
+    background: rgb(10,10,10);
+    background: radial-gradient(circle, rgba(10,10,10,1) 0%, rgba(60,60,60,1) 100%);
+}
+
+.page {
+    background: #000;
+}
+
+.page h1 {
+    font-size: 128px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.page__text {
+    width: 50%;
+}
+
+.page__img {
+    width: 50%;
+}
+
+.page__img img{
+    width: 100%;
+    max-width: 450px;
+}
