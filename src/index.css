@@ -54,6 +54,11 @@
   html {
     font-family: var(--grotesk)
   }
+.space-grotesk-semibold {
+    font-family: 'Space Grotesk Semi Bold', serif;
+    font-style: normal;
+    src: url('/static/SpaceGrotesk-SemiBold.ttf') format('ttf');
+}
 
 .font-custom {
     font-family: 'MyCustomFont', sans-serif;

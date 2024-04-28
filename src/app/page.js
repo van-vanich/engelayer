@@ -7,7 +7,7 @@ const Page = () => {
       <body>
       <NavBar/>
 
-      <div className="page font-custom">
+      <div className="page">
           <div className="container mx-auto p-10 pb-2 flex justify-between">
               <div className="page__text flex justify-center flex-col">
                   <h1 className="text-4xl">TRACKING MADE EASILY.</h1>

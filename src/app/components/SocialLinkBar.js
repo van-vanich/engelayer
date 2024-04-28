@@ -12,7 +12,7 @@ const SocialLinkBar = () => {
             <div className="container mx-auto flex justify-between items-center text-white space-x-2">
                 <div>
                     <Image src="/static/logo.svg" className="" width={178} height={50}/>
-                    <p className="text-center text-gray-400 pl-1">© 2024 Starecore, Inc. All Rights reserved.</p>
+                    <p className="text-center text-gray-400 pl-1 pt-4">© 2024 Starecore, Inc. All Rights reserved.</p>
                 </div>
 
                 <div className="">
@@ -31,7 +31,7 @@ const SocialLinkBar = () => {
 
                 <div className="text-left">
                     <p className="text-2xl">Company</p>
-                    <div className="flex items-center justify-center space-x-4">
+                    <div className="flex items-start justify-start space-x-4">
                         <div className="text-left">
                             <p className="text-left text-gray-400">Blog</p>
                             <p className="text-left text-gray-400">Docs</p>
@@ -41,9 +41,9 @@ const SocialLinkBar = () => {
 
                 <div className="">
                     <p className="text-2xl">Legal</p>
-                    <div className="flex items-center justify-center space-x-4">
+                    <div className="flex items-center justify-start space-x-4">
                         <div className="text-left">
-                            <p className="text-left text-gray-400">Privacy Policy</p>
+                            <p className="text-left left-0 text-gray-400">Privacy Policy</p>
                             <p className="text-left text-gray-400">Terms of Use</p>
                         </div>
                     </div>
