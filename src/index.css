@@ -41,7 +41,7 @@
           font-family: 'Space Grotesk';
           font-style: normal;
 
-          src: url('/static/SpaceGrotesk-Light.woff2') format('woff2');
+          src: url('/static/SpaceGrotesk-Medium.ttf') format('ttf');
       }
     * {
       @apply border-border;
