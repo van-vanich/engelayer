@@ -1,9 +1,10 @@
 import Navbar from "@/app/components/NavBar";
 import Image from "next/image";
+import SocialLinkBar from "@/app/components/SocialLinkBar";
 
 const Blog = () => {
     return (
-        <>
+        <body>
             <Navbar/>
             <div>
                 <div className="container mx-auto p-4 pb-0">
@@ -158,7 +159,9 @@ const Blog = () => {
                     </div>
                 </div>
             </div>
-        </>
+
+            <SocialLinkBar/>
+        </body>
 
     );
 };

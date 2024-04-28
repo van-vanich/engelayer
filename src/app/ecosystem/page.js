@@ -7,6 +7,7 @@ import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import NavBar from "@/app/components/NavBar";
+import SocialLinkBar from "@/app/components/SocialLinkBar";
 
 export default function Dashboard() {
   const client = new CovalentClient("cqt_rQq7bWWFXtXppQXD8BbphKrdpJcQ")
@@ -104,7 +105,7 @@ export default function Dashboard() {
         <NavBar/>
 
 
-        <div className="bg-black min-h-screen mx-auto px-32">
+        <div className="min-h-screen mx-auto px-32">
           <div className="mt-16 p-8 rounded-lg  border-gray-400 border-2 justify-between flex">
             <div className="flex">
               <Input type="text" placeholder="Wallet adress..."
@@ -283,6 +284,8 @@ export default function Dashboard() {
         </>}
 
         </div>
+
+        <SocialLinkBar/>
       </>
 
 

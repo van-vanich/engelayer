@@ -1,4 +1,5 @@
 import Navbar from "@/app/components/NavBar";
+import SocialLinkBar from "@/app/components/SocialLinkBar";
 
 const Docs = () => {
     return (
@@ -95,6 +96,8 @@ const Docs = () => {
                     that our platform meets the evolving needs of the blockchain ecosystem.</p>
             </div>
         </div>
+
+        <SocialLinkBar/>
     </>
 
     );

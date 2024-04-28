@@ -48,29 +48,19 @@
   html {
     font-family: var(--grotesk)
   }
-/*html {*/
-/*    background: aqua !important;*/
-/*    font-family: "Space Grotesk", sans-serif !important;*/
-/*    font-optical-sizing: auto;*/
-/*    font-weight: 400;*/
-/*    font-style: normal;*/
-/*}*/
-/** {*/
-/*    color: #fff;*/
-/*}*/
 
 .font-custom {
     font-family: 'MyCustomFont', sans-serif;
     src: url(https://fonts.gstatic.com/s/spacegrotesk/v16/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2) format('woff2');
 }
-
-nav {
-    background: rgb(10,10,10);
-    background: radial-gradient(circle, rgba(10,10,10,1) 0%, rgba(60,60,60,1) 100%);
+body {
+    background-color:hsla(0,0%,0%,1);
+    background-image:
+            radial-gradient(at 100% 0%, hsla(0,0%,86%,0.4) 0px, transparent 50%),
+            radial-gradient(at 10% 100%, hsla(343,0%,86%,0.12) 0px, transparent 50%);
 }
 
 .page {
-    background: #000;
     padding-top: 158px;
 }
 

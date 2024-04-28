@@ -1,9 +1,10 @@
 import NavBar from "@/app/components/NavBar";
 import Image from "next/image";
+import SocialLinkBar from "@/app/components/SocialLinkBar";
 
 const Page = () => {
   return (
-      <>
+      <body>
           <NavBar/>
 
           <div className="page font-custom">
@@ -19,7 +20,9 @@ const Page = () => {
                   </div>
               </div>
           </div>
-      </>
+
+          <SocialLinkBar/>
+      </body>
   );
 };
 

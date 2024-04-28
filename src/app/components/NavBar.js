@@ -7,7 +7,7 @@ import Image from 'next/image'
 const Navbar = () => {
     let imgSrc = 'logo.svg';
     return (
-        <nav className="max-w-full container bg-gradient-to-bl from-gray-500 to-black  bg-cover bg-center p-4">
+        <nav className="max-w-full container bg-cover bg-center p-4">
 
             <div className="container mx-auto flex justify-between items-center text-white space-x-2">
                 <Link href="/">
