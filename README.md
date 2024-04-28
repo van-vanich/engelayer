@@ -1,36 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## EngeLayer - Web3 Analytics App
 
-## Getting Started
+_**EngeLayer** is an innovative dApp built to deliver onchain analytics specifically for EVM Chains. **EngeLayer** empowers users with a suite of advanced features designed to provide insights into their digital assets and activities._
 
-First, run the development server:
+_**EngeLayer** offers users the capability to effortlessly monitor their onchain balances across multiple EVM chains. With real-time updates and intuitive visualization tools, users can stay informed about their cryptocurrency holdings._
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+_Dive deep into your transaction history with **EngeLayer**'s seamless interface. Gain valuable insights into past transactions, including sender and receiver information, transaction amounts, and much more. **EngeLayer** provides a comprehensive overview of your blockchain activity, ensuring transparency._
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+_**EngeLayer** goes beyond traditional cryptocurrency tracking by offering support for Non-Fungible Tokens (NFTs). Easily manage your NFT holdings, view detailed information about individual tokens, and track their value over time._
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+_**EngeLayer** seamlessly integrates with popular EVM-based dApps such as AAVE, Compound Finance, and Lido Finance. Track your interactions with them directly from **EngeLayer**'s interface, allowing for a comprehensive overview of your lendings, borrows or staked assets._
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Welcome to the future of Web3 Analytics – Welcome to EngeLayer.
