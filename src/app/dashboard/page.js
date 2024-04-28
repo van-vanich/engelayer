@@ -171,17 +171,15 @@ export default function Dashboard() {
                         <span className="text-center px-4 py-2">
                   {item.from_address.substring(0, 4) + '...' + item.from_address.substring(item.from_address.length - 4)}
                 </span>
-                        {/* <span className="text-center px-4 py-2">${item.quote_rate}</span> */}
-                        {/* <span className="text-center px-4 py-2"> */}
-                        {/*   {(parseFloat(item.pretty_quote.replace("$", "")) / item.quote_rate).toFixed(4)} {item.contract_ticker_symbol} */}
-                        {/* </span> */}
-
                         <span className="text-center px-4 py-2">
                   {item.to_address.substring(0, 4) + '...' + item.to_address.substring(item.to_address.length - 4)}
                 </span>
-                        <Badge className="w-max bg-gray-400">
-                          {myWallet === item.from_address ? 'IN' : 'OUT'}
-                        </Badge>
+                        <div className="flex justify-center">
+                          <Badge className="text-center items-center justify-center flex w-max bg-gray-400">
+                            {myWallet === item.from_address ? 'IN' : 'OUT'}
+                          </Badge>
+                        </div>
+
                         <span className="text-center px-4 py-2">{item.pretty_value_quote}</span>
                       </>
                   ))}
