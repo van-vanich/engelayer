@@ -17,6 +17,9 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        'space-grotesk': ['Space Grotesk'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -74,5 +77,6 @@ module.exports = {
     },
   },
   plugins: [
+    require('@tailwindcss/typography'),
   ],
 }

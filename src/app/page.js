@@ -1,6 +1,7 @@
 import NavBar from "@/app/components/NavBar";
 import Image from "next/image";
 import SocialLinkBar from "@/app/components/SocialLinkBar";
+import {Space_Grotesk} from "next/dist/compiled/@next/font/dist/google";
 
 const Page = () => {
   return (

@@ -37,6 +37,12 @@
   }
 
   @layer base {
+      @font-face {
+          font-family: 'Space Grotesk';
+          font-style: normal;
+
+          src: url('/static/SpaceGrotesk-Light.woff2') format('woff2');
+      }
     * {
       @apply border-border;
     }

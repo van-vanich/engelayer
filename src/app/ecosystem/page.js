@@ -125,7 +125,7 @@ export default function Dashboard() {
             </div>}
           </div>
               {stakings.length > 0 && <>
-                <div className="w-max  rounded-tl-lg rounded-tr-lg mt-12 px-12 py-4 text-black bg-gray-400">
+                <div className="w-max rounded-tl-lg rounded-tr-lg mt-12 px-12 py-4 text-black bg-gray-400">
                   dApps
                 </div>
                 <div
@@ -162,7 +162,7 @@ export default function Dashboard() {
               </>}
 
           <div className="flex justify-between">
-            <div className="mt-16 p-8 pr-4 rounded-lg border-gray-400 border-2 justify-between text-xl">
+            <div className="mt-16 p-8 pr-4 rounded-lg border-gray-400 border-2 justify-between text-base">
               <Image className="content-center flex justify-center pl-16 pr-16 pb-4" src="/static/aave.svg" alt="" width={300} height={300}/>
               <p>AAVE is a DeFi Protocol that offers lending</p>
               <p>and borrowing services akin to a Web3 </p>
@@ -171,7 +171,7 @@ export default function Dashboard() {
               <p>friendly interface.</p>
             </div>
 
-            <div className="mt-16 p-8 pr-4 rounded-lg border-gray-400 border-2 justify-between text-xl">
+            <div className="mt-16 p-8 pr-4 rounded-lg border-gray-400 border-2 justify-between text-base">
               <Image className="content-center flex justify-center pl-16 pr-16 pb-4" src="/static/compound.svg" alt=""
                      width={300} height={300}/>
               <p>Compound Finance is a DeFi Protocol that</p>
@@ -182,7 +182,7 @@ export default function Dashboard() {
             </div>
 
 
-            <div className="mt-16 p-8 pr-4 rounded-lg border-gray-400 border-2 justify-between text-xl">
+            <div className="mt-16 p-8 pr-4 rounded-lg border-gray-400 border-2 justify-between text-base">
               <Image className="content-center flex justify-center pl-16 pr-16 pb-4" src="/static/lido.svg" alt=""
                      width={300} height={300}/>
               <p>Lido Finance is a DeFi Protocol backed by </p>
