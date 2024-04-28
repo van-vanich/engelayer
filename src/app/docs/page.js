@@ -46,7 +46,7 @@ const Docs = () => {
 
             <div className="container mx-auto pl-16 pt-1">
                 <h1 className="text-3xl pl-2">● FAQ</h1>
-                <h2 className="text-xl">How can I access my onchain balances?</h2>
+                <h2 className="text-xl pt-4">How can I access my onchain balances?</h2>
 
                 <p className="text-lg text-gray-400 pt-2">Users can access their onchain balances by just entering
                     their wallet address in Dashboard. Once wallet address is entered, users can view their
