@@ -52,17 +52,23 @@ export default function Dashboard() {
     setMyWallet(walletAddress.toLowerCase());
     console.log("myWallet ", myWallet);
     let resp = await client.BalanceService
-      .getTokenBalancesForWalletAddress("scroll-mainnet", walletAddress);
+      .getTokenBalancesForWalletAddress("eth-mainnet", walletAddress);
     let totalBalance = 0;
     console.log(resp)
     if (resp === null || resp.data === null || resp.data.items === null) return;
     let items = resp.data.items.filter(item => item.pretty_quote !== "$0.00")
-    setCountToken(items.length + ' Tokens')
     console.log(items)
+    let count = 0;
     resp.data.items.forEach(item => {
-      totalBalance += parseFloat(item.pretty_quote.replace("$", ""))
+      if (item.pretty_quote !== null) {
+        totalBalance += parseFloat(item.pretty_quote.replace("$", ""))
+        if (parseFloat(item.pretty_quote.replace("$", "")) > 0) {
+          count++;
+        }
+      }
     })
     setWalletAddressSubmit('$' + totalBalance.toFixed(2))
+    setCountToken(count + ' Tokens')
     console.log(walletAddressSubmit)
 
     let headers = new Headers();
