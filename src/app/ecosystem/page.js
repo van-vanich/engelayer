@@ -20,7 +20,7 @@ export default function Dashboard() {
   const [compound, setCompound] = useState([]);
   const stakings =[
     {name: 'AAVE', chain:'https://etherscan.io/address/0xf301805bE1Df81102C957f6d4Ce29d2B8c056B2a', TVL:'$10,929,659,170', app_link:'https://app.aave.com/markets/?marketName=proto_scroll_v3'},
-    {name: 'Compound Finance', chain:'https://compound.finance/', TVL:'$2,378,725,183', app_link:'https://app.compound.finance/markets/weth-mainnet'},
+    {name: 'Compound Finance', chain:'https://compound.finance/', TVL:'$2,378,725,183', app_link:'https://app.compound.finance'},
     {name: 'Lido Finance', chain:'https://etherscan.io/token/0xf610a9dfb7c89644979b4a0f27063e9e7d7cda32', TVL:'$29,457,334,334', app_link:'https://lido.fi/'}
   ]
 
