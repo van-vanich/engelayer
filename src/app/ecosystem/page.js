@@ -109,7 +109,7 @@ export default function Dashboard() {
 
           <div className="container mx-auto">
             <div className="mt-16 p-8 rounded-lg  border-gray-400 border-2 justify-between flex">
-              <div className="flex">
+              <div className="flex items-center">
                 <Input type="text" placeholder="Wallet adress..."
                        value={walletAddress}
                        onChange={handleChange}
@@ -197,7 +197,7 @@ export default function Dashboard() {
             </div>
 
             {aave.length > 0 && <>
-              <div className="w-max rounded-tl-lg rounded-tr-lg mt-12 py-4 text-black bg-gray-400">
+              <div className="w-max rounded-tl-lg rounded-tr-lg px-12 mt-12 py-4 text-black bg-gray-400">
                 AAVE
               </div>
               <div

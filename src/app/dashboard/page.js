@@ -95,7 +95,7 @@ export default function Dashboard() {
 
         <div className="container mx-auto px-8">
           <div className="mt-16 p-8 rounded-lg  border-gray-400 border-2 justify-between flex">
-            <div className="flex">
+            <div className="flex items-center">
               <Input type="text" placeholder="Wallet adress..."
                      value={walletAddress}
                      onChange={handleChange}
