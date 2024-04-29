@@ -11,7 +11,9 @@ const SocialLinkBar = () => {
 
             <div className="container mx-auto flex justify-between items-center text-white space-x-2">
                 <div>
-                    <Image src="/static/logo.svg" className="" width={178} height={50}/>
+                    <Link href="/" target="_blank">
+                        <Image src="/static/logo.svg" className="" width={178} height={50} alt=""/>
+                    </Link>
                     <p className="text-center text-gray-400 pl-1 pt-4">© 2024 Starecore, Inc. All Rights reserved.</p>
                 </div>
 
