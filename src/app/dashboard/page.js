@@ -162,7 +162,7 @@ export default function Dashboard() {
 
                   {transactions.slice(0, showAll ? transactions.length : 5).map((item, index) => (
                       <>
-                        <div>
+                        <div className="flex justify-center">
 
                           <Link className="text-center px-4 pt-2 text-gray-400" target="_blank"
                                 href={`https://scrollscan.com/tx/${item.tx_hash}`}>
