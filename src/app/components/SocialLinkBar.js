@@ -26,8 +26,8 @@ const SocialLinkBar = () => {
                                      className="text-left text-gray-400">Github</Link></p>
                         </div>
                         <div>
-                            <p className="text-left text-gray-400">Medium</p>
-                            <p className="text-left text-gray-400">Discord</p>
+                            <p><Link href="https://medium.com/@engelayer" target="_blank" className="text-left text-gray-400">Medium</Link></p>
+                            <p><Link href="https://discord.gg/nkt5WgN4ep" target="_blank" className="text-left text-gray-400">Discord</Link></p>
                         </div>
                     </div>
                 </div>
