@@ -163,7 +163,7 @@ export default function Dashboard() {
 
           <div className="flex justify-between">
             <div className="mt-16 p-8 pr-4 rounded-lg border-gray-400 border-2 justify-between text-lg">
-              <Image className="content-center flex justify-center pl-16 pr-16 pb-4" src="/static/aave.svg" alt="" width={325} height={325}/>
+              <Image className="content-center flex justify-center pl-16 pr-16 pb-4" src="/static/aave.svg" alt="" width={335} height={325}/>
               <p>AAVE is a DeFi Protocol that offers lending</p>
               <p>and borrowing services akin to a Web3 </p>
               <p>bank. It allows users to supply assets and </p>
@@ -173,7 +173,7 @@ export default function Dashboard() {
 
             <div className="mt-16 p-8 pr-4 rounded-lg border-gray-400 border-2 justify-between text-lg">
               <Image className="content-center flex justify-center pl-16 pr-16 pb-4" src="/static/compound.svg" alt=""
-                     width={325} height={325}/>
+                     width={335} height={325}/>
               <p>Compound Finance is a DeFi Protocol that</p>
               <p>allows users to lend and borrow assets. It</p>
               <p>operates as an autonomous interest rate </p>
@@ -184,7 +184,7 @@ export default function Dashboard() {
 
             <div className="mt-16 p-8 pr-4 rounded-lg border-gray-400 border-2 justify-between text-lg">
               <Image className="content-center flex justify-center pl-16 pr-16 pb-4" src="/static/lido.svg" alt=""
-                     width={325} height={325}/>
+                     width={335} height={325}/>
               <p>Lido Finance is a DeFi Protocol backed by </p>
               <p>industry-leading staking providers that </p>
               <p>supports staking for Ethereum and </p>
