@@ -1,4 +1,3 @@
-// src/components/Navbar.js
 import Link from 'next/link';
 import '@/index.css';
 import Image from 'next/image'

@@ -15,7 +15,7 @@ const Blog = () => {
                     </p>
                 </div>
 
-                <div className="flex justify-between pl-24 pr-24 pt-16">
+                <div className="container flex justify-between px-8 pt-16">
                     <div className="rounded-lg border-gray-400 border-2 justify-between text-lg overflow-hidden">
                         <Image className="content-center flex justify-center min-w-full border-b-2 border-gray-400"
                                src="/static/blog.svg"
@@ -69,18 +69,19 @@ const Blog = () => {
                     </p>
                 </div>
 
-                <div className="flex justify-between pl-24 pr-24 pt-16">
+                <div className="container flex justify-between px-8 pt-16">
                     <div className="rounded-lg border-gray-400 border-2 justify-between text-lg overflow-hidden">
                         <Link href="https://scroll.io/blog/enter-the-v0rtex" target="_blank">
                             <Image className="content-center flex justify-center min-w-full border-b-2 border-gray-400"
-                               src="/static/blog.svg"
-                               alt=""
-                                             width={400} height={300}/></Link>
+                                   src="/static/blog.svg"
+                                   alt=""
+                                   width={400} height={300}/></Link>
 
                         <p className="text-center pt-2 pl-2 pr-2">V0RTEx: Scroll’s First Online</p>
                         <p className="text-center pl-2 pr-2">Hackathon</p>
 
-                        <p className="text-center text-base text-gray-400 pl-2 pr-2">The Hackathon will run from April 24th
+                        <p className="text-center text-base text-gray-400 pl-2 pr-2">The Hackathon will run from April
+                            24th
                             until </p>
                         <p className="text-center text-base text-gray-400 pl-2 pr-2">April 29th and will be hosted on
                             DoraHacks</p>
@@ -89,35 +90,41 @@ const Blog = () => {
                     <div className="rounded-lg border-gray-400 border-2 justify-between text-lg overflow-hidden">
                         <Link href="https://www.dappcon.io" target="_blank">
                             <Image className="content-center flex justify-center min-w-full border-b-2 border-gray-400"
-                               src="/static/blog.svg"
-                               alt=""
+                                   src="/static/blog.svg"
+                                   alt=""
                                    width={400} height={300}/></Link>
                         <p className="text-center pt-2">Ethereum: DappConn - Berlin,</p>
                         <p className="text-center">Germany</p>
 
-                        <p className="text-center text-base text-gray-400 pl-2 pr-2">A 3-day Developer Conference for </p>
-                        <p className="text-center text-base text-gray-400 pl-2 pr-2">Ethereum Infrastructure that would bring</p>
-                        <p className="text-center text-base text-gray-400 pl-2 pr-2">together over 900 builders together.</p>
+                        <p className="text-center text-base text-gray-400 pl-2 pr-2">A 3-day Developer Conference
+                            for </p>
+                        <p className="text-center text-base text-gray-400 pl-2 pr-2">Ethereum Infrastructure that would
+                            bring</p>
+                        <p className="text-center text-base text-gray-400 pl-2 pr-2">together over 900 builders
+                            together.</p>
                     </div>
 
 
                     <div className="rounded-lg border-gray-400 border-2 justify-between text-lg overflow-hidden">
-                        <Link href="https://linea.mirror.xyz/awFpUNXs6SSmqmNZHq_IkBWEHKUkHXBrKuap0SxvX0I" target="_blank">
+                        <Link href="https://linea.mirror.xyz/awFpUNXs6SSmqmNZHq_IkBWEHKUkHXBrKuap0SxvX0I"
+                              target="_blank">
                             <Image className="content-center flex justify-center min-w-full border-b-2 border-gray-400"
-                               src="/static/blog.svg"
-                               alt=""
+                                   src="/static/blog.svg"
+                                   alt=""
                                    width={400} height={300}/></Link>
                         <p className="text-center pt-2">Linea Builder Launchpad - Your</p>
                         <p className="text-center">Web3 Developer Journey</p>
 
-                        <p className="text-center text-base text-gray-400 pl-2 pr-2">The easiest way to dive in your Web3</p>
-                        <p className="text-center text-base text-gray-400 pl-2 pr-2">Developer Journey within the vibrant Linea</p>
+                        <p className="text-center text-base text-gray-400 pl-2 pr-2">The easiest way to dive in your
+                            Web3</p>
+                        <p className="text-center text-base text-gray-400 pl-2 pr-2">Developer Journey within the
+                            vibrant Linea</p>
                         <p className="text-center text-base text-gray-400 pl-2 pr-2">Ecosystem.</p>
                     </div>
                 </div>
 
 
-                <div className="flex justify-between pl-24 pr-24 pt-16">
+                <div className="container flex justify-between px-8 pt-16">
                     <div className="rounded-lg border-gray-400 border-2 justify-between text-lg overflow-hidden">
                         <Link href="https://scroll.io/blog/introducing-scroll-sessions" target="_blank">
                             <Image className="content-center flex justify-center min-w-full border-b-2 border-gray-400"

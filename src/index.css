@@ -119,3 +119,8 @@ body {
         padding-bottom: 50px;
     }
 }
+
+.input-dashboard {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}

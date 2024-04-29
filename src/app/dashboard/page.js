@@ -93,15 +93,15 @@ export default function Dashboard() {
         <NavBar/>
 
 
-        <div className="min-h-screen mx-auto px-32">
+        <div className="container mx-auto px-8">
           <div className="mt-16 p-8 rounded-lg  border-gray-400 border-2 justify-between flex">
             <div className="flex">
               <Input type="text" placeholder="Wallet adress..."
                      value={walletAddress}
                      onChange={handleChange}
-                     className="border rounded-md p-2 ml-2"/>
-              <button className="bg-white text-black px-4 py-2 rounded-md ml-4"
-                      onClick={handleSubmit}>Analyze
+              className="input-dashboard focus-visible:ring-offset-0 focus-visible:ring-0"/>
+              <button className="text-black rounded-l-lg"
+                      onClick={handleSubmit}><Image src="/static/submitButton.svg" height={50} width={50} alt=""/>
               </button>
             </div>
             {walletAddressSubmit !== '' && <div className="text-white flex space-x-4">
