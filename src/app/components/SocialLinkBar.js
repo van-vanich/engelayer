@@ -19,8 +19,10 @@ const SocialLinkBar = () => {
                     <p className="text-2xl">Socials</p>
                     <div className="flex items-center justify-center space-x-4">
                         <div className="text-left">
-                            <p className="text-left text-gray-400">X / Twitter</p>
-                            <p className="text-left text-gray-400">Github</p>
+                            <p><Link href="https://twitter.com/EngeLayer" target="_blank"
+                                     className="text-left text-gray-400">X / Twitter</Link></p>
+                            <p><Link href="https://github.com/van-vanich/engelayer" target="_blank"
+                                     className="text-left text-gray-400">Github</Link></p>
                         </div>
                         <div>
                             <p className="text-left text-gray-400">Medium</p>
@@ -33,8 +35,8 @@ const SocialLinkBar = () => {
                     <p className="text-2xl">Company</p>
                     <div className="flex items-start justify-start space-x-4">
                         <div className="text-left">
-                            <p className="text-left text-gray-400">Blog</p>
-                            <p className="text-left text-gray-400">Docs</p>
+                            <p><Link href="/blog" className="text-left text-gray-400">Blog</Link></p>
+                            <p><Link href="/docs" className="text-left text-gray-400">Docs</Link></p>
                         </div>
                     </div>
                 </div>
@@ -50,7 +52,8 @@ const SocialLinkBar = () => {
                 </div>
 
                 <div className="flex items-center">
-                    <Image src="/static/covalent.svg" alt="" width={276} height={90}/>
+                    <Link href="https://twitter.com/Covalent_HQ" target="_blank"><Image src="/static/covalent.svg"
+                                                                                        alt="" width={276} height={90}/></Link>
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 import Navbar from "@/app/components/NavBar";
 import Image from "next/image";
 import SocialLinkBar from "@/app/components/SocialLinkBar";
+import Link from "next/link";
 
 const Blog = () => {
     return (
@@ -70,10 +71,11 @@ const Blog = () => {
 
                 <div className="flex justify-between pl-24 pr-24 pt-16">
                     <div className="rounded-lg border-gray-400 border-2 justify-between text-lg overflow-hidden">
-                        <Image className="content-center flex justify-center min-w-full border-b-2 border-gray-400"
+                        <Link href="https://scroll.io/blog/enter-the-v0rtex" target="_blank">
+                            <Image className="content-center flex justify-center min-w-full border-b-2 border-gray-400"
                                src="/static/blog.svg"
                                alt=""
-                               width={400} height={300}/>
+                                             width={400} height={300}/></Link>
 
                         <p className="text-center pt-2 pl-2 pr-2">V0RTEx: Scroll’s First Online</p>
                         <p className="text-center pl-2 pr-2">Hackathon</p>
@@ -85,10 +87,11 @@ const Blog = () => {
                     </div>
 
                     <div className="rounded-lg border-gray-400 border-2 justify-between text-lg overflow-hidden">
-                        <Image className="content-center flex justify-center min-w-full border-b-2 border-gray-400"
+                        <Link href="https://www.dappcon.io" target="_blank">
+                            <Image className="content-center flex justify-center min-w-full border-b-2 border-gray-400"
                                src="/static/blog.svg"
                                alt=""
-                               width={400} height={300}/>
+                                   width={400} height={300}/></Link>
                         <p className="text-center pt-2">Ethereum: DappConn - Berlin,</p>
                         <p className="text-center">Germany</p>
 
@@ -99,10 +102,11 @@ const Blog = () => {
 
 
                     <div className="rounded-lg border-gray-400 border-2 justify-between text-lg overflow-hidden">
-                        <Image className="content-center flex justify-center min-w-full border-b-2 border-gray-400"
+                        <Link href="https://linea.mirror.xyz/awFpUNXs6SSmqmNZHq_IkBWEHKUkHXBrKuap0SxvX0I" target="_blank">
+                            <Image className="content-center flex justify-center min-w-full border-b-2 border-gray-400"
                                src="/static/blog.svg"
                                alt=""
-                               width={400} height={300}/>
+                                   width={400} height={300}/></Link>
                         <p className="text-center pt-2">Linea Builder Launchpad - Your</p>
                         <p className="text-center">Web3 Developer Journey</p>
 
@@ -115,10 +119,11 @@ const Blog = () => {
 
                 <div className="flex justify-between pl-24 pr-24 pt-16">
                     <div className="rounded-lg border-gray-400 border-2 justify-between text-lg overflow-hidden">
-                        <Image className="content-center flex justify-center min-w-full border-b-2 border-gray-400"
+                        <Link href="https://scroll.io/blog/introducing-scroll-sessions" target="_blank">
+                            <Image className="content-center flex justify-center min-w-full border-b-2 border-gray-400"
                                src="/static/blog.svg"
                                alt=""
-                               width={400} height={300}/>
+                                   width={400} height={300}/></Link>
 
                         <p className="text-center pt-2 pl-2 pr-2">Introducing Scroll Sessions: Session</p>
                         <p className="text-center pl-2 pr-2">Zero</p>
@@ -130,10 +135,11 @@ const Blog = () => {
                     </div>
 
                     <div className="rounded-lg border-gray-400 border-2 justify-between text-lg overflow-hidden">
-                        <Image className="content-center flex justify-center min-w-full border-b-2 border-gray-400"
+                        <Link href="https://www.bnbchain.org/en/blog/staking-opportunities-post-bnb-chain-fusion" target="_blank">
+                            <Image className="content-center flex justify-center min-w-full border-b-2 border-gray-400"
                                src="/static/blog.svg"
                                alt=""
-                               width={400} height={300}/>
+                                   width={400} height={300}/></Link>
 
                         <p className="text-center pt-2">Staking Opportunities Post-BNB </p>
                         <p className="text-center">Chain Fusion</p>
@@ -145,10 +151,11 @@ const Blog = () => {
 
 
                     <div className="rounded-lg border-gray-400 border-2 justify-between text-lg overflow-hidden">
-                        <Image className="content-center flex justify-center min-w-full border-b-2 border-gray-400"
+                        <Link href="https://base.mirror.xyz/pVPbs2mSR_eZCpy4PVnY0sNJrK2KGOVtSuU_TO7LLc0" target="_blank">
+                            <Image className="content-center flex justify-center min-w-full border-b-2 border-gray-400"
                                src="/static/blog.svg"
                                alt=""
-                               width={400} height={300}/>
+                                             width={400} height={300}/></Link>
 
                         <p className="text-center pt-2">How Base is driving down fees </p>
                         <p className="text-center">across the board with EIP-4844</p>
