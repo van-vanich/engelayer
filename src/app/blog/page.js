@@ -8,7 +8,7 @@ const Blog = () => {
         <body>
             <Navbar/>
             <div>
-                <div className="container mx-auto p-4 pb-0">
+                <div className="container mx-auto pt-4">
                     <h1 className="text-3xl">EngeLayer Latest Updates - Blog</h1>
                     <p className="text-base pt-1 text-gray-400">
                         Learn about EngeLayer’s technology, research, and latest developments.
@@ -61,7 +61,7 @@ const Blog = () => {
                     </div>
                 </div>
 
-                <div className="container mx-auto p-4 pb-0 pt-16">
+                <div className="container mx-auto pt-16">
                     <h1 className="text-3xl">Ethereum Ecosystem Latest Updates - Blog</h1>
                     <p className="text-base pt-1 text-gray-400">
                         Learn more about the latest Ethereum Ecosystem’s news, technologies, conferences and community
