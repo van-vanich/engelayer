@@ -46,22 +46,22 @@ export default function Dashboard() {
     console.log("myWallet ", myWallet);
     setShowAll(false)
     let resp = await client.BalanceService
-      .getTokenBalancesForWalletAddress("scroll-mainnet", walletAddress);
+      .getTokenBalancesForWalletAddress("bnb-opbnb-mainnet", walletAddress);
     let totalBalance = 0;
     console.log(resp)
     if (resp === null || resp.data === null || resp.data.items === null) return;
     let items = resp.data.items.filter(item => item.pretty_quote !== "$0.00")
-    setCountToken(items.length + ' Tokens')
+    setCountToken('Converted to the TrueUSD')
     setTokens(items)
     console.log(items)
     resp.data.items.forEach(item => {
       totalBalance += parseFloat(item.pretty_quote.replace("$", ""))
     })
-    setWalletAddressSubmit('$' + totalBalance.toFixed(2))
+    setWalletAddressSubmit(totalBalance.toFixed(2) + ' TUSD')
     console.log(walletAddressSubmit)
     let trns = []
     try {
-      for await (const trans of client.TransactionService.getAllTransactionsForAddress("scroll-mainnet", walletAddress)) {
+      for await (const trans of client.TransactionService.getAllTransactionsForAddress("bnb-opbnb-mainnet", walletAddress)) {
         if (trans.to_address !== null) trns.push(trans);
       }
     } catch (error) {
@@ -134,7 +134,7 @@ export default function Dashboard() {
                         <span className="content-center flex justify-center px-4 py-2">
                   <Link className="" target="_blank"
                         href={`https://scrollscan.com/address/${item.contract_address}`}>
-                    <Image src="/static/scroll.svg" className="" width={30} height={30}/>
+                    <Image src="/static/bnb.svg" className="" width={30} height={30}/>
                   </Link>
                 </span>
                         <span className="text-center px-4 py-2">${item.quote_rate}</span>
