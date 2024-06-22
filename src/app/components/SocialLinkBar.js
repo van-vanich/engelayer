@@ -53,7 +53,7 @@ const SocialLinkBar = () => {
                 </div>
 
                 <div className="flex items-center">
-                    <Link href="https://twitter.com/Covalent_HQ" target="_blank"><Image src="/static/covalent.svg"
+                    <Link href="https://twitter.com/graphprotocol" target="_blank"><Image src="/static/graph.svg"
                                                                                         alt="" width={276} height={90}/></Link>
                 </div>
             </div>

@@ -22,6 +22,9 @@ const Navbar = () => {
                     <Link href="/ecosystem">
                         Ecosystem
                     </Link>
+                    <Link href="/voting">
+                        Community
+                    </Link>
                     <Link href="/blog">
                         Blog
                     </Link>
